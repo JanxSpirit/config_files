@@ -1,0 +1,25 @@
+
+;; ----- smex-history -----
+(
+ nrepl-jack-in
+ eval-buffer
+ package-install
+ package-menu-mark-delete
+ ansi-color-for-comint-mode-on
+ cd
+ 5x5
+)
+
+;; ----- smex-data -----
+(
+ (package-install . 3)
+ (ansi-color-for-comint-mode-on . 1)
+ (color-theme-solarized . 1)
+ (package-menu-mark-delete . 1)
+ (color-theme-solarized-dark . 2)
+ (eval-buffer . 4)
+ (clojure-jump-between-tests-and-code . 1)
+ (clojure-insert-ns-form . 2)
+ (nrepl-jack-in . 7)
+ (clojure-mode . 1)
+)
